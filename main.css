@@ -1,3 +1,379 @@
-h1 {
-    color: red;
+.mainContainer{
+    width: 850px;
+    height: 300px;
+    padding-left: 45px;
+    padding-top: 110px;
+    
+}
+
+.itemsContainer{
+    width: 488.31px;
+    height: 227px;
+    background-color: white;
+    float: left;
+    margin-right: 40px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.selectedItems{
+    width: 206.69px;
+    height: 225px;
+    background-color: white;
+    float: left;
+    border-radius: 5px;
+    }
+
+.items{
+    width: 486.31px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    padding-top: 3%;
+    padding-bottom: 2%;
+    border-bottom: 1px solid gainsboro;
+}
+
+#addInput{
+    width: 65%;
+    height: 80%;
+    background-color: white;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding-left: 10px;
+    border: 1px solid gainsboro;
+}
+
+button.first{
+    width: 25%;
+    height: 89%;
+    background-color: steelblue;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    border: 1px;
+    border-color: steelblue;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    box-shadow: inset 0px -2px 4px darkblue;
+}
+
+.tomato{
+    width: 486.31px;
+    height: 25px;
+    background-color: white;
+    padding-top: 2%;
+    padding-bottom: 3%;
+    border-bottom: 1px solid gainsboro;
+}
+
+.tomatoText{
+    background-color: white;
+    margin-left: 18px;
+    margin-right: 90px;
+    font-size: 17px; 
+}
+
+.amountTomato{
+    background-color: white;
+    margin-right: 60px;
+}
+
+button.lessTomatoButton{
+    width: 7%;
+    height: 129%;
+    background-color: red;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: 1px;
+    border-color: red;
+    border-radius: 100%;
+    box-shadow: inset 0px -2px 4px hotpink;
+}
+
+button.moreTomatoButton{
+    width: 7%;
+    height: 129%;
+    background-color: green;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: 1px;
+    border-color: green;
+    border-radius: 100%;
+    box-shadow: inset 0px -2px 4px green;
+}
+
+.numberTomato{
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    border-radius: 5px;
+}
+
+.submitTomato{
+    background-color: white;
+}
+
+button.submitTomatoButton{
+    background-color: gainsboro;
+    border: 1px;
+    border-color: gainsboro;
+    border-radius: 5px;
+    width: 17%;
+    height: 129%;
+    font-size: 10px;
+    font-weight: bold;
+    margin-right: 2px;
+    box-shadow: inset 0px -2px 4px gray;
+}
+
+button.removeTomatoButton{
+    background-color: red;
+    border: 1px;
+    border-color: red;
+    border-radius: 5px;
+    font-size: 33px;
+    color: white;
+    width: 6%;
+    height: 122%;
+    font-size: 15px;
+    font-weight: bold;
+    box-shadow: inset 0px -2px 4px firebrick;
+}
+
+
+.cookies{
+    width: 486.31px;
+    height: 25px;
+    background-color: white;
+    padding-top: 2%;
+    padding-bottom: 3%;
+    border-bottom: 1px solid gainsboro;
+}
+
+.cookiesText{
+    background-color: white;
+    margin-left: 18px;
+    margin-right: 107px;
+    font-size: 17px; 
+}
+
+.amountCookies{
+    background-color: white;
+    margin-right: 60px;
+}
+
+button.lessCookiesButton{
+    width: 7%;
+    height: 129%;
+    background-color: red;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: 1px;
+    border-color: red;
+    border-radius: 100%;
+    box-shadow: inset 0px -2px 4px hotpink;
+}
+
+button.moreCookiesButton{
+    width: 7%;
+    height: 129%;
+    background-color: green;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: 1px;
+    border-color: green;
+    border-radius: 100%;
+    box-shadow: inset 0px -2px 4px green;
+}
+
+.numberCookies{
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    border-radius: 5px;
+}
+
+.submitCookies{
+    background-color: white;
+}
+
+button.submitCookiesButton{
+    background-color: gainsboro;
+    border: 1px;
+    border-color: gainsboro;
+    border-radius: 5px;
+    width: 17%;
+    height: 129%;
+    font-size: 10px;
+    font-weight: bold;
+    margin-right: 2px;
+    box-shadow: inset 0px -2px 4px gray;
+}
+
+button.removeCookiesButton{
+    background-color: red;
+    border: 1px;
+    border-color: red;
+    border-radius: 5px;
+    font-size: 33px;
+    color: white;
+    width: 6%;
+    height: 122%;
+    font-size: 15px;
+    font-weight: bold;
+    box-shadow: inset 0px -2px 4px firebrick;
+}
+
+.cheese{
+    width: 486.31px;
+    height: 25px;
+    background-color: white;
+    padding-top: 2%;
+    padding-bottom: 3%;
+    border-bottom: 1px solid gainsboro;
+}
+
+.cheeseText{
+    background-color: white;
+    margin-left: 18px;
+    margin-right: 131px;
+    font-size: 17px; 
+}
+
+.amountCheese{
+    background-color: white;
+    margin-right: 60px;
+}
+
+button.lessCheeseButton{
+    width: 7%;
+    height: 129%;
+    background-color: red;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: 1px;
+    border-color: red;
+    border-radius: 100%;
+    box-shadow: inset 0px -2px 4px hotpink;
+}
+
+button.moreCheeseButton{
+    width: 7%;
+    height: 129%;
+    background-color: green;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: 1px;
+    border-color: green;
+    border-radius: 100%;
+    box-shadow: inset 0px -2px 4px green;
+}
+
+.numberCheese{
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    border-radius: 5px;
+}
+
+.submitCheese{
+    background-color: white;
+}
+
+button.submitCheeseButton{
+    background-color: gainsboro;
+    border: 1px;
+    border-color: gainsboro;
+    border-radius: 5px;
+    width: 17%;
+    height: 129%;
+    font-size: 10px;
+    font-weight: bold;
+    margin-right: 2px;
+    box-shadow: inset 0px -2px 4px gray;
+}
+
+button.removeCheeseButton{
+    background-color: red;
+    border: 1px;
+    border-color: red;
+    border-radius: 5px;
+    font-size: 33px;
+    color: white;
+    width: 6%;
+    height: 122%;
+    font-size: 15px;
+    font-weight: bold;
+    box-shadow: inset 0px -2px 4px firebrick;
+}
+
+.left{
+    background-color: white;
+    width: 204px;
+    height: 51px;
+    border-bottom: 1px solid gainsboro; 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 6px
+}
+
+h2{
+    background-color: white;
+}
+
+.leftItems{
+    width: 204px;
+    height: 91px;
+    background-color: white;
+    border-bottom: 1px solid gainsboro;   
+}
+
+.leftContainer{
+    background-color: gainsboro;
+    border-radius: 5px;
+    margin-left: 13px;
+    margin-bottom: 4px;
+    
+    width: 50%;
+    height: 30%;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+.leftNumberLabel{
+    background-color: orange;
+    border-radius: 100%;
+    margin-left: 5px;
+    width: 20%;
+    text-align: center;
+    color: white;
+}
+
+.leftNameLabel{
+    font-size: 13px;
+    display: inline;
+}
+
+.bought{
+    background-color: white;
+    width: 204px;
+    height: 51px;
+    border-bottom: 1px solid gainsboro; 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 6px;
 }
