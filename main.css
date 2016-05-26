@@ -1,379 +1,227 @@
-.mainContainer{
-    width: 850px;
-    height: 300px;
-    padding-left: 45px;
-    padding-top: 110px;
-    
+body{
+    background-color: lightgrey;
 }
-
-.itemsContainer{
-    width: 488.31px;
-    height: 227px;
-    background-color: white;
-    float: left;
-    margin-right: 40px;
-    border-radius: 5px;
-    border: 1px solid black;
+.panelsContainer{
+    width:1220px;
+    margin:auto;
+    margin-top:100px;
 }
-
-.selectedItems{
-    width: 206.69px;
-    height: 225px;
-    background-color: white;
-    float: left;
-    border-radius: 5px;
-    }
-
-.items{
-    width: 486.31px;
-    height: 50px;
-    display: flex;
-    justify-content: center;
-    background-color: white;
-    padding-top: 3%;
-    padding-bottom: 2%;
-    border-bottom: 1px solid gainsboro;
-}
-
-#addInput{
-    width: 65%;
-    height: 80%;
-    background-color: white;
-    border-top-left-radius: 5px;
+.panelsContainer div{
+   
     border-bottom-left-radius: 5px;
-    padding-left: 10px;
-    border: 1px solid gainsboro;
-}
-
-button.first{
-    width: 25%;
-    height: 89%;
-    background-color: steelblue;
-    color: white;
-    font-size: 14px;
-    font-weight: bold;
-    border: 1px;
-    border-color: steelblue;
-    border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
-    box-shadow: inset 0px -2px 4px darkblue;
+}
+.leftPanelContainer{
+     background-color: white;
+    width:800px;
+    height:100%;
+    float:left;
+    border-radius:5px;
+    box-shadow:0 0 7px grey;
 }
 
-.tomato{
-    width: 486.31px;
-    height: 25px;
-    background-color: white;
-    padding-top: 2%;
-    padding-bottom: 3%;
-    border-bottom: 1px solid gainsboro;
-}
-
-.tomatoText{
-    background-color: white;
-    margin-left: 18px;
-    margin-right: 90px;
-    font-size: 17px; 
-}
-
-.amountTomato{
-    background-color: white;
-    margin-right: 60px;
-}
-
-button.lessTomatoButton{
-    width: 7%;
-    height: 129%;
-    background-color: red;
-    color: white;
-    font-size: 18px;
-    font-weight: bold;
-    border: 1px;
-    border-color: red;
-    border-radius: 100%;
-    box-shadow: inset 0px -2px 4px hotpink;
-}
-
-button.moreTomatoButton{
-    width: 7%;
-    height: 129%;
-    background-color: green;
-    color: white;
-    font-size: 18px;
-    font-weight: bold;
-    border: 1px;
-    border-color: green;
-    border-radius: 100%;
-    box-shadow: inset 0px -2px 4px green;
-}
-
-.numberTomato{
-    padding-left: 8px;
-    padding-right: 8px;
-    padding-bottom: 3px;
-    padding-top: 3px;
-    border-radius: 5px;
-}
-
-.submitTomato{
-    background-color: white;
-}
-
-button.submitTomatoButton{
-    background-color: gainsboro;
-    border: 1px;
-    border-color: gainsboro;
-    border-radius: 5px;
-    width: 17%;
-    height: 129%;
-    font-size: 10px;
-    font-weight: bold;
-    margin-right: 2px;
-    box-shadow: inset 0px -2px 4px gray;
-}
-
-button.removeTomatoButton{
-    background-color: red;
-    border: 1px;
-    border-color: red;
-    border-radius: 5px;
-    font-size: 33px;
-    color: white;
-    width: 6%;
-    height: 122%;
-    font-size: 15px;
-    font-weight: bold;
-    box-shadow: inset 0px -2px 4px firebrick;
-}
-
-
-.cookies{
-    width: 486.31px;
-    height: 25px;
-    background-color: white;
-    padding-top: 2%;
-    padding-bottom: 3%;
-    border-bottom: 1px solid gainsboro;
-}
-
-.cookiesText{
-    background-color: white;
-    margin-left: 18px;
-    margin-right: 107px;
-    font-size: 17px; 
-}
-
-.amountCookies{
-    background-color: white;
-    margin-right: 60px;
-}
-
-button.lessCookiesButton{
-    width: 7%;
-    height: 129%;
-    background-color: red;
-    color: white;
-    font-size: 18px;
-    font-weight: bold;
-    border: 1px;
-    border-color: red;
-    border-radius: 100%;
-    box-shadow: inset 0px -2px 4px hotpink;
-}
-
-button.moreCookiesButton{
-    width: 7%;
-    height: 129%;
-    background-color: green;
-    color: white;
-    font-size: 18px;
-    font-weight: bold;
-    border: 1px;
-    border-color: green;
-    border-radius: 100%;
-    box-shadow: inset 0px -2px 4px green;
-}
-
-.numberCookies{
-    padding-left: 8px;
-    padding-right: 8px;
-    padding-bottom: 3px;
-    padding-top: 3px;
-    border-radius: 5px;
-}
-
-.submitCookies{
-    background-color: white;
-}
-
-button.submitCookiesButton{
-    background-color: gainsboro;
-    border: 1px;
-    border-color: gainsboro;
-    border-radius: 5px;
-    width: 17%;
-    height: 129%;
-    font-size: 10px;
-    font-weight: bold;
-    margin-right: 2px;
-    box-shadow: inset 0px -2px 4px gray;
-}
-
-button.removeCookiesButton{
-    background-color: red;
-    border: 1px;
-    border-color: red;
-    border-radius: 5px;
-    font-size: 33px;
-    color: white;
-    width: 6%;
-    height: 122%;
-    font-size: 15px;
-    font-weight: bold;
-    box-shadow: inset 0px -2px 4px firebrick;
-}
-
-.cheese{
-    width: 486.31px;
-    height: 25px;
-    background-color: white;
-    padding-top: 2%;
-    padding-bottom: 3%;
-    border-bottom: 1px solid gainsboro;
-}
-
-.cheeseText{
-    background-color: white;
-    margin-left: 18px;
-    margin-right: 131px;
-    font-size: 17px; 
-}
-
-.amountCheese{
-    background-color: white;
-    margin-right: 60px;
-}
-
-button.lessCheeseButton{
-    width: 7%;
-    height: 129%;
-    background-color: red;
-    color: white;
-    font-size: 18px;
-    font-weight: bold;
-    border: 1px;
-    border-color: red;
-    border-radius: 100%;
-    box-shadow: inset 0px -2px 4px hotpink;
-}
-
-button.moreCheeseButton{
-    width: 7%;
-    height: 129%;
-    background-color: green;
-    color: white;
-    font-size: 18px;
-    font-weight: bold;
-    border: 1px;
-    border-color: green;
-    border-radius: 100%;
-    box-shadow: inset 0px -2px 4px green;
-}
-
-.numberCheese{
-    padding-left: 8px;
-    padding-right: 8px;
-    padding-bottom: 3px;
-    padding-top: 3px;
-    border-radius: 5px;
-}
-
-.submitCheese{
-    background-color: white;
-}
-
-button.submitCheeseButton{
-    background-color: gainsboro;
-    border: 1px;
-    border-color: gainsboro;
-    border-radius: 5px;
-    width: 17%;
-    height: 129%;
-    font-size: 10px;
-    font-weight: bold;
-    margin-right: 2px;
-    box-shadow: inset 0px -2px 4px gray;
-}
-
-button.removeCheeseButton{
-    background-color: red;
-    border: 1px;
-    border-color: red;
-    border-radius: 5px;
-    font-size: 33px;
-    color: white;
-    width: 6%;
-    height: 122%;
-    font-size: 15px;
-    font-weight: bold;
-    box-shadow: inset 0px -2px 4px firebrick;
-}
-
-.left{
-    background-color: white;
-    width: 204px;
-    height: 51px;
-    border-bottom: 1px solid gainsboro; 
-    display: flex; 
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 6px
-}
-
-h2{
-    background-color: white;
-}
-
-.leftItems{
-    width: 204px;
-    height: 91px;
-    background-color: white;
-    border-bottom: 1px solid gainsboro;   
-}
-
-.leftContainer{
-    background-color: gainsboro;
-    border-radius: 5px;
-    margin-left: 13px;
-    margin-bottom: 4px;
-    
-    width: 50%;
-    height: 30%;
-    display: flex; 
-    justify-content: center;
-    align-items: center;
-}
-
-.leftNumberLabel{
-    background-color: orange;
-    border-radius: 100%;
-    margin-left: 5px;
-    width: 20%;
+.addItems{
     text-align: center;
-    color: white;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.addItems input, button{
+    margin:0;
+    height:35px;
 }
 
-.leftNameLabel{
-    font-size: 13px;
-    display: inline;
+.goods{
+    width:80%;
+    border-radius:5px 0 0 5px;
+    border:1px solid lightgrey;
+    padding-left:10px;
+    
 }
-
+.addGoods{
+    color:white;
+    background-color:royalblue;
+    box-shadow: 0 2px darkblue;
+    font-weight:700;
+    font-size:14px;
+    width:15%;
+    border-radius:0 5px 5px 0;
+    border:10px;
+    box-sizing: content-box;
+}
+.productRow{
+    border-top:1px solid lightgrey;
+    margin-bottom:10px;
+    height:25px;
+      
+}
+.goods-list{
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.goods-list .productRow{
+    padding-left: 10px;
+    padding-bottom:10px;
+    padding-top:10px;
+}
+.productName{
+    float:left;
+    width:100px;
+    display: table-cell;
+    vertical-align: middle;
+}
+.productNameInput{
+     float:left;
+    width:100px;
+    display: table-cell;
+    vertical-align: middle;
+}
+.addDeleteAmount{
+    text-align: center;
+    width:500px;
+    display: inline-block;
+    
+}
+.currentAmount{
+    background-color:#E8E8E8;
+    padding-left:12px;
+    padding-right:12px;
+    padding-top:8px;
+    padding-bottom:8px;
+    border-radius: 3px;
+    font-size:12px;
+}
+.decrease{
+    width:30px;
+    height:30px;
+    border-radius: 20px;
+    background-color: #DB2828;
+    color:white;
+    font-weight:500;
+    font-size:18px;
+    border:10px;
+    box-shadow: 0 2px darkred;
+    outline:none;
+}
+.disable{
+     pointer-events:none;
+     opacity:0.3;
+}
+.increase{
+    outline:none;
+    width:30px;
+    height:30px;
+    border-radius:20px;
+    border:10px;
+    background-color:#21BA45;
+    color:white;
+    font-weight: 500;
+    font-size:18px;
+     border:10px;
+    box-shadow: 0 2px darkgreen;
+}
 .bought{
-    background-color: white;
-    width: 204px;
-    height: 51px;
-    border-bottom: 1px solid gainsboro; 
-    display: flex; 
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 6px;
+    padding:0px 20px;
+    border-radius:5px;
+    box-shadow:0 2px darkgrey;
+    height:30px;
+    background-color:#E8E8E8;
+    margin-bottom:10px;
+}
+.delete{
+    background-color:#DB2828;
+    color:white;
+    width:32px;
+    height:28px;
+    font-weight:700;
+    border-radius: 5px;
+    border:10px;
+    box-shadow:0 3px darkred;
+    
+}
+.boughtCanceled{
+    float:right;
+    margin-right:10px;
+}
+
+.rightPanelContainer{
+     background-color: white;
+    width:400px;
+    height:100%;
+    float:left;
+    margin-left:20px;
+    border-radius:5px;
+    box-shadow:0 0 7px grey;
+    padding-bottom:10px;
+   
+}
+.rightPanelContainer div{
+    border-radius:0px;
+    margin-top:10px;
+    padding-bottom:7px;
+}
+
+.leftContainer {
+    font-weight:700;
+    font-size:20px;
+    margin-left:10px;
+}
+.productNameBought{
+    text-decoration:line-through;
+}
+.increaseBought{
+    pointer-events:none;
+    opacity:0;
+}
+.decreaseBought{
+   pointer-events:none;
+    opacity:0;
+}
+.cancelBought{
+    pointer-events:none;
+    opacity:0;
+}
+.boughT{
+    display:none;
+}
+.notBought{
+    display:none;
+}
+.boughtLabelWrapper{
+    border-bottom:1px solid lightgrey;
+}
+.boughtContainer{
+    font-weight:700;
+    font-size:20px;
+    margin-left:10px;
+}
+
+.leftListWrapper{
+    border-bottom:1px solid lightgrey;
+
+}
+.leftLabelInputWrapper{
+    display:inline-block;
+    background-color:#E8E8E8;
+    padding:8px 10px;
+    font-size:12px;
+    border-radius:3px;
+    margin-left:5px;
+    margin-top:5px;
+}
+
+.leftAmount{
+    background-color: #F2711C;
+    color:white;
+    padding:5px 10px;
+    border-radius:15px;
+}
+.boughtListWrapper{
+    border-bottom:1px solid lightgrey;
+}
+.boughtGoods span{
+    background-color:#E8E8E8;
+    padding:8px 10px;
+    font-size:12px;
+    border-radius:3px;
+    margin-left:5px;
 }

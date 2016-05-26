@@ -9,70 +9,56 @@
 </head>
 <body>
 <div class="mainContainer">
-        <div class="itemsContainer">
-            <div class="items">
-                <input id="addInput" type="text" name="input" placeholder="Назва товару">
-                <button class="first" type="button">Додати</button>
+    <div class="panelsContainer">
+        <div class="leftPanelContainer">
+            <div class="addItems">
+                <input type="text" class="goods" name="input" placeholder="Назва товару"/>
+                <input class="addGoods" type="submit" value="Додати"/>
             </div>
-            <div class="tomato">
-                <span class="tomatoText">Помідори</span>
-                <span class="amountTomato">
-                    <button class="lessTomatoButton" type="button">-</button>
-                    <span class="numberTomato">1</span>
-                    <button class="moreTomatoButton" type="button">+</button>
-                </span>
-                <span class="submitTomato">
-                    <button class="submitTomatoButton" type="button">Куплено</button>
-                    <button class="removeTomatoButton" type="button">x</button>
-                </span>
-            </div>
-            <div class="cookies">
-                <span class="cookiesText">Печиво</span>
-                <span class="amountCookies">
-                    <button class="lessCookiesButton" type="button">-</button>
-                    <span class="numberCookies">1</span>
-                    <button class="moreCookiesButton" type="button">+</button>
-                </span>
-                <span class="submitCookies">
-                    <button class="submitCookiesButton" type="button">Куплено</button>
-                    <button class="removeCookiesButton" type="button">x</button>
-                </span>
-            </div>
-            <div class="cheese">
-                <span class="cheeseText">Сир</span>
-                <span class="amountCheese">
-                    <button class="lessCheeseButton" type="button">-</button>
-                    <span class="numberCheese">1</span>
-                    <button class="moreCheeseButton" type="button">+</button>
-                </span>
-                <span class="submitCheese">
-                    <button class="submitCheeseButton" type="button">Куплено</button>
-                    <button class="removeCheeseButton" type="button">x</button>
-                </span>
+            <div class="goods-list">
+
             </div>
         </div>
-        <div class="selectedItems">
-            <div class="left">
-                <h2>Залишилося</h2>
-            </div>
-            <div class="leftItems">
-                <span class="leftContainer">
-                    <label class="leftNameLabel">Помідори</label>
-                    <label class="leftNumberLabel">1</label>
-                </span>
-                <span class="leftContainer">
-                    <label class="leftNameLabel">Печиво</label>
-                    <label class="leftNumberLabel">1</label>
-                </span>
-                <span class="leftContainer">    
-                    <label class="leftNameLabel">Сир</label>
-                    <label class="leftNumberLabel">1</label>
-                </span>
-            </div>
-            <div class="bought">
-                <h2>Куплено</h2>
-            </div>
+    
+        <div class="item-template" style="display:none;">
+                    <div class="productRow">
+                        <span class="productName"></span>
+                        <input type="text" class="productNameInput" style="display:none;" value=""/>
+                        <div class="addDeleteAmount">
+                        <button class="decrease disable">-</button>
+                        <span class="currentAmount">1</span>
+                        <button class="increase">+</button>
+                        </div>
+                        <span class="boughtCanceled">
+                            <button class="bought">Куплено</button>
+                            <button class="delete">х</button>
+                            <button class="notBought">Не куплено</button></span>
+                       
+                    </div>
+                </div>
+        
+
+    <div class="rightPanelContainer">
+        <div class="leftContainer">
+            Залишилося
+        </div>
+        <div class="leftListWrapper">
+        <div class="leftList"></div>
+        </div>
+        <div class="boughtLabelWrapper">
+        <div class="boughtContainer">Куплено</div>
+         </div>
+        <div class="boughtListWrapper">
+        <div class="boughtGoods"></div>
         </div>
     </div>
+    </div>
+     <div class="leftLabelWrapper" style="display:none;">
+         <span class="leftLabelInputWrapper"><label class="leftName"></label><label class="leftAmount"></label></span>
+     </div>      
+ 
+         
+    <script	type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js">	</script>
+    <script	type="text/javascript" src="main.js"></script>
 </body>
 </html>
